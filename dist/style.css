@@ -1,0 +1,51 @@
+#ol-los-cta-container {
+  background-color: var(--red);
+  --columns: 2;
+  --gutter: 1.5rem;
+  border-radius: 4px;
+  filter: var(--dropshadow);
+}
+
+#ol-los-cta-container .input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: calc(100% / var(--columns) - var(--gutter) * (var(--columns) - 1) / var(--columns));
+}
+
+#ol-los-cta-container .input-group.fullwidth {
+  width: 100%;
+}
+
+#ol-los-cta-container .input-group input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid var(--white);
+  background-color: transparent;
+  border-radius: 0;
+  color: var(--white);
+}
+
+#ol-los-cta-container .input-group label {
+  color: var(--white);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+#ol-los-cta-container input.text,
+#ol-los-cta-container input.title,
+#ol-los-cta-container input[type=email],
+#ol-los-cta-container input[type=password],
+#ol-los-cta-container input[type=tel],
+#ol-los-cta-container input[type=text],
+#ol-los-cta-container select,
+#ol-los-cta-container textarea {
+  outline: none;
+}
+
+#ol-los-cta-container button[type=submit] {
+  border: 2px solid var(--white);
+  border-radius: 2px;
+}

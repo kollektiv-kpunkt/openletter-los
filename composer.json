@@ -1,0 +1,21 @@
+{
+  "name": "kollektiv-kpunkt/openletter-los",
+  "description": "Plugin for openletter by lesbenorganisation Schweiz",
+  "type":"wordpress-plugin",
+  "minimum-stability" : "stable",
+  "authors": [
+    {
+      "email": "timothy@kpunkt.ch",
+      "name": "timothyoesch"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "5.7.16|6.*"
+  },
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "foroco/php-browser-detection": "^2.3",
+        "pecee/simple-router": "4.3.7.2",
+        "mailchimp/marketing": "^3.0"
+    }
+}

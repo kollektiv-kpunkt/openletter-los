@@ -1,0 +1,13 @@
+{
+    "title" : "Unterzeichner*innen",
+    "description" : "Bisher haben folgende Personen unseren Brief an die Pride Zurich unterzeichnet:",
+    "fname" : "Vorname",
+    "lname" : "Nachname",
+    "email" : "E-Mail Adresse",
+    "plz" : "PLZ",
+    "place" : "Ort",
+    "optin" : "Die LOS darf mich auf dem Laufenden halten",
+    "sign" : "Unterzeichnen",
+    "cta" : "Unterzeichne unseren Brief!",
+    "cta-desc" : "Bisher haben {NUMSIGN} Personen unseren Brief unterschrieben: Hilf auch mit und unterzeichne unseren offenen Brief, damit wir Druck auf die Pride Zürich ausüben können!"
+}
